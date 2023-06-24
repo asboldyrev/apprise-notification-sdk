@@ -23,6 +23,13 @@ class Client
 	}
 
 
+	public function hassio(Hassio $hassio): self {
+		$this->urls[ $hassio->protocol() ] = $hassio->link();
+
+		return $this;
+	}
+
+
 	public function email(Email $email): self
 	{
 		$this->urls[ 'mailtos' ] = $email->link();
