@@ -1,0 +1,19 @@
+{
+    "name": "asboldyrev/apprise-notification-sdk",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Asboldyrev\\AppriseNotificationSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "asboldyrev",
+            "email": "angelcorpc@ya.ru"
+        }
+    ]
+}
