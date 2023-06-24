@@ -2,8 +2,6 @@
 
 namespace Asboldyrev\AppriseNotificationSdk;
 
-use Asboldyrev\AppriseNotificationSdk\Enums\EmailMode;
-
 class Email
 {
 	protected $emails = [];
